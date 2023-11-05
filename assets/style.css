@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+main{
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid rgb(20, 115, 183);
+    margin-bottom: 50px;
+}
+h2{
+    color: rgb(20, 115, 183);
+}
+
+.banner{
+    text-align: center;
+    background-image: url(images/banner.png);
+    width: 100%;
+    padding: 15px;
+    box-shadow: inset 0px 0px 1000px rgb(20, 115, 183);
+    border-bottom: 2px solid rgb(20, 115, 183);
+}
+.banner > div > h1{
+    color: rgb(20, 115, 183);
+}
+.banner > div > p{
+    margin: 0 auto;
+    width: 400px;
+    padding: 15px;
+    color: rgb( 245, 245, 245);
+}
+.banner > div > button{
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(52, 167, 221);
+    font-weight: bold;
+    padding: 8px;
+}
+
+#course-content > p{
+    margin: 0 auto;
+    width: 700px;
+    padding-bottom: 15px;
+}
+.modules-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.module{
+    width: 400px;
+
+    border: 2px solid rgb(19, 115, 182);
+    border-radius: 20px;
+    background-color: rgba(150, 150, 150, 0.3);
+    box-shadow: inset 3px 3px 3px rgb(19, 115, 182);
+    margin: 8px auto; 
+    padding: 8px;
+
+}
+.module > span{
+    color: rgb(19, 115, 182) ;
+}
+
+#transform-world{
+    background-image: url(images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#transform-world > p{
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: xxx-large;
+    text-align: left;
+    text-shadow: 6px 4px 3px rgb(0, 0, 0);
+    width: 250px;
+    height: 450px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;   
+}
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#professional-challenges > h2{
+    width: 400px;
+}
+#professional-challenges > p{
+    width: 700px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
